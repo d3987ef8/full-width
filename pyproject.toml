@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "full-width"
-version = "0.0.1"
+version = "0.0.3"
 authors = [
   { name="Jack Murray", email="contact@jackmurray.com" },
 ]
@@ -22,4 +22,4 @@ Homepage = "https://github.com/d3987ef8/full-width"
 Issues = "https://github.com/d3987ef8/full-width/issues"
 
 [project.scripts]
-make-resume = "full_width.full_width:full_width"
+full-width = "full_width.full_width:full_width"
